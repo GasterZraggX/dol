@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <link rel="shortcut icon" href="img/logo.ico.ico" /> 
+    <link rel="shortcut icon" href="img/logo.ico.ico" />
     <title>Dungeon of Life</title>
     <style>
       body {
@@ -44,14 +44,26 @@
       .button:hover {
         background-color: rgb(63, 60, 60);
         color: white;
-        zoom: normal;
+      }
+      .zoom {
+        padding: 50px;
+        transition: transform 0.2s; /* Animation */
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+      }
+
+      .zoom:hover {
+        transform: scale(1.5);
       }
     </style>
   </head>
   <body>
     <h6>Welcome to the Alpha Version of 'Dungeon of Life'</h6>
-    <img src="img/dead-eye.png" class="imeg" /><br>
-    <p style="text-align: center;">This site is created by JonyHuang</p>
-    <a href="a1.html"><button class="button">Click Here to Start</button></a><br>
+    <img src="img/dead-eye.png" class="imeg" /><br />
+    <p style="text-align: center">This site is created by JonyHuang</p>
+    <a href="a1.html"
+      ><button class="button zoom">Click Here to Start</button></a
+    ><br />
   </body>
 </html>
